@@ -17,7 +17,7 @@ export default function AboutUs() {
                     <div className="col-lg-6 col-md-6">
                         <div className="btn-group mb-4">
                             <button type="button" className={`btn btn-light ${styles.btn}`}>Stock Market</button>
-                            <button type="button" className={`btn btn-light ${styles.btn}`}>Personal Finance</button>
+                            <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}>Personal Finance</button>
                             <button type="button" className={`btn btn-light ${styles.btn}`}>Taxes</button>
                         </div>
                         <h5 className={styles.h5}>A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on the world’s fastest and most secure crypto exchange</h5>

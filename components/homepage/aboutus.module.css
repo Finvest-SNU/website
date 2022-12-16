@@ -5,6 +5,11 @@
     background: rgba(245, 245, 245, 0.9);
 }
 
+.btn_active {
+    background: linear-gradient(268.99deg, #01E755 3.26%, #01D88A 99.39%);
+    font-weight: 600;
+}
+
 .h1 {
     background: linear-gradient(269.36deg, #00FF47 -0.35%, #00C466 91.19%);
     -webkit-background-clip: text;
