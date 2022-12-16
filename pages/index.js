@@ -1,12 +1,9 @@
-// import styles from '../styles/Home.module.css'
-// import aboutImg from './../assets/img/about-img.jpg';
+import Hero from './../components/homepage/hero';
 
 export default function Home() {
   return (
     <>
-    <section style={{height: '70vh'}}>
-
-    </section>
+      <Hero />
     </>
   );  
 }
