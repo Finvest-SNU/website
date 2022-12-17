@@ -1,6 +1,7 @@
 import Hero from './../components/homepage/hero';
 import Banner from './../components/homepage/banner';
 import AboutUs from './../components/homepage/aboutus';
+import Roadmap from './../components/homepage/roadmap';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Banner />
       <AboutUs />
+      <Roadmap />
     </>
   );  
 }
