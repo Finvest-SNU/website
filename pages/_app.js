@@ -5,8 +5,10 @@ import 'aos/dist/aos.css';
 import '../styles/globals.css';
 import AOS from 'aos';
 
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
 import Layout from '../components/layout';
+import Market from './Market';
+
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -21,9 +23,18 @@ export default function App({ Component, pageProps }) {
     import('bootstrap/dist/js/bootstrap.bundle.min')
   }, []);
 
+  const [toggleState , setToggleState]=useState(1);
+
   return (
+    
     <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <Component {...pageProps} />
+  </Layout> 
+
   );
 }
+
+ 
+
+
+

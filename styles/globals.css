@@ -312,6 +312,17 @@ h6 {
   /* justify-content: center; */
   /* align-items: center; */
   /* gap: 10px; */
+
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+
+}
+
+
+
+#btn-market-blog:active {
+  transform: translateY(4px);
 }
 
 /**
