@@ -7,7 +7,7 @@ import AOS from 'aos';
 
 import { useEffect,useState } from 'react';
 import Layout from '../components/layout';
-import Market from './Market';
+
 
 
 export default function App({ Component, pageProps }) {
