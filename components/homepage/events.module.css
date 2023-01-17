@@ -1,0 +1,111 @@
+.pfg {
+    background: linear-gradient(180deg, #9E00FF 0%, #158FFF 100%);
+    /* background: #000; */
+    position: relative;
+}
+
+.events_section {
+    position: relative;
+    padding-right: 0px;
+}
+
+.PFGImg {
+    position: absolute;
+    max-width: 75%;
+    bottom: 5px;
+    right: 0;
+}
+
+.pfg_text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    text-align: left;
+}
+
+.pfg_text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgb(255 255 255 / 25%);
+}
+
+.btn {
+    position: absolute;
+    padding: 6px 30px;
+    left: 5%;
+    top: 65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #434343;
+    background: rgba(245, 245, 245, 0.9);
+    border-radius: 100px;
+    border: none;
+}
+
+.events_btn {
+    /* position: relative; */
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+}
+
+.insta_container {
+    /* position: relative; */
+    background: linear-gradient(215.29deg, #CF54BC 0%, #FF4343 56.24%, #FFB443 101.23%);
+    border-radius: 0px;
+    /* bottom: 0; */
+    /* padding: 40px 30px; */
+}
+
+.insta_content {
+    /* position: relative; */
+}
+
+.insta_icon {
+    position: relative;
+    /* margin: 0px  */
+    margin-bottom: 15px;
+    /* float: left; */
+}
+
+.insta_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.insta_btn {
+    position: relative !important;
+    float: left;
+    /* margin-top: 15px;
+    margin-left: -50px; */
+    top: 0;
+    left: 0;
+}
+
+.bisleri_container {
+    background: #000;
+    padding: 0;
+}
+
+.bisleri_container div {
+    padding: 0;
+    /* margin: 0; */
+}
+
+.bisleri_container img {
+    padding: 8px 0px;
+}
