@@ -10,15 +10,22 @@ export default function AboutUs() {
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-md-6">
                         <h5 className={styles.h5}>A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on the world’s fastest and most secure crypto exchange</h5>
-                        <img src={Img.src} className="img-fluid" alt="About Us Image" />
+                        <img src={Img.src} className={`img-fluid ${styles.img}`} alt="About Us Image" />
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-lg-6 col-md-6">
-                        <div className="btn-group mb-4">
-                            <button type="button" className={`btn btn-light ${styles.btn}`}>Stock Market</button>
-                            <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}>Personal Finance</button>
-                            <button type="button" className={`btn btn-light ${styles.btn}`}>Taxes</button>
+                    <div className="col-lg-8 col-md-8">
+                        {/* <div className="btn-group mb-4"> */}
+                        <div className="row mb-4 justify-content-center">
+                            <div className="col-12 col-sm-4 mb-2">
+                                <button type="button" className={`btn btn-light ${styles.btn}`}>Stock Market</button>
+                            </div>
+                            <div className="col-12 col-sm-4 mb-2">
+                                <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}>Personal Finance</button>
+                            </div>
+                            <div className="col-12 col-sm-4">
+                                <button type="button" className={`btn btn-light ${styles.btn}`}>Taxes</button>
+                            </div>
                         </div>
                         <h5 className={styles.h5}>A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on the world’s fastest and most secure crypto exchange</h5>
                     </div>

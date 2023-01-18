@@ -10,3 +10,13 @@
     line-height: 120%;
     color: #333333;
 }
+
+@media(max-width: 576px) {
+    .h1 {
+        font-size: 20px;
+    }
+
+    .sponsorsImg {
+        margin-top: 10px !important;
+    }
+}

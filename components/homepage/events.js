@@ -19,18 +19,18 @@ export default function Events() {
                             <h1>Personal Finance Guide</h1>
                         </div>
                         <img src={PFGImg.src} className={`img-fluid ${styles.PFGImg}`} alt="Personal Finance Guide" />
-                        <button type="button" className={styles.btn}>Download</button>
+                        <button type="button" className={`${styles.btn} ${styles.pfg_btn}`}>Download</button>
                     </div>
-                    <div className={`col-lg-7 col-md-6 text-center ${styles.events_section}`}>
+                    <div className={`col-lg-7 col-md-6 text-center ${styles.events_section} mt-2 mt-sm-0`}>
                         <img src={EventsImg.src} className="img-fluid" alt="Events" />
                         <button type="button" className={`btn ${styles.btn} ${styles.events_btn}`}>Checkout</button>
                     </div>
                 </div>
-                <div className={`row mt-4`}>
-                    <div className={`d-flex align-items-center justify-content-center text-start col-lg-3 col-md-3 ${styles.insta_container}`}>
-                        <div className={`ml-3 pt-4 pb-4`}>
+                <div className={`row mt-sm-4 mt-2`}>
+                    <div className={`d-flex align-items-center justify-content-start justify-content-md-center text-start col-lg-3 col-md-3 ${styles.insta_container}`}>
+                        <div className={`ml-3 pt-4 pb-4 col-9 col-md-6`}>
                             <img src={InstaIcon.src} className={`img-fluid ${styles.insta_icon}`} alt="Instagram" />
-                            <h1 className={styles.insta_text}>Follow<br/>us for<br/>updates.</h1>
+                            <h1 className={styles.insta_text}>Follow us for<br/>updates</h1>
                             <button type="button" className={`btn ${styles.btn} ${styles.insta_btn}`}>Follow us</button>
                         </div>
                     </div>

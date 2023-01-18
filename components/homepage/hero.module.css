@@ -153,3 +153,10 @@
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .h2 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}

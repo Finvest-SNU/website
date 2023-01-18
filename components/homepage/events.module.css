@@ -17,7 +17,7 @@
 }
 
 .pfg_text {
-    position: absolute;
+    position: relative;
     top: 25%;
     left: 5%;
     text-align: left;
@@ -37,7 +37,6 @@
     position: absolute;
     padding: 6px 30px;
     left: 5%;
-    top: 65%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -47,10 +46,13 @@
     border-radius: 100px;
     border: none;
 }
+.pfg_btn {
+    top: 65%;
+}
 
 .events_btn {
     /* position: relative; */
-    top: 70%;
+    bottom: 70px;
     left: 50%;
     -ms-transform: translate(-50%, -70%);
     transform: translate(-50%, -70%);
@@ -62,10 +64,6 @@
     border-radius: 0px;
     /* bottom: 0; */
     /* padding: 40px 30px; */
-}
-
-.insta_content {
-    /* position: relative; */
 }
 
 .insta_icon {
@@ -108,4 +106,43 @@
 
 .bisleri_container img {
     padding: 8px 0px;
+}
+
+@media(max-width: 576px) {
+    .events_btn {
+        bottom: 0px;
+    }
+
+    .events_section {
+        padding-left: 0px;
+    }
+    
+    .pfg {
+        min-height: 250px !important;
+    }
+
+    .pfg_text {
+        top: 35px;
+        left: 5px;
+    }
+
+    .pfg_text h1, .insta_text {
+        font-size: 32px;
+    }
+
+    .PFGImg {
+        right: -10px;
+    }
+
+    .insta_container {
+        padding-left: 40px;
+    }
+
+    .insta_icon {
+        max-width: 25%;
+    }
+
+    .pfg_btn {
+        left: 15px;
+    }
 }

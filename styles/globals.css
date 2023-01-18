@@ -1536,3 +1536,12 @@ section {
 .swiper-button-next, .swiper-button-prev {
   color: #000 !important;
 }
+
+/* Section styles */
+section#events {
+  padding-top: 0px !important;
+}
+
+section#sponsors {
+  padding-top: 20px !important;
+}
