@@ -1,10 +1,12 @@
 import React from 'react'
+import FrameComponent from './maarket';
+
 
 
 export default function Market() {
     return (
         <>
-            <h1>Hello</h1>
+            < FrameComponent />
         </>
     );
 }

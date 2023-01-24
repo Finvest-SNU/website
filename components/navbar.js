@@ -1,12 +1,7 @@
 import Logo from './../assets/img/logo.png';
 import React,{useState} from 'react'
+import Link from 'next/link';
 
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link,
-  } from "react-router-dom";
 
 export default function Navbar() {
     
@@ -50,7 +45,7 @@ export default function Navbar() {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
 
-                <a><button id="btn-market-blog" >The Market Blog</button></a>
+                <Link href='/Market'><button id="btn-market-blog" >The Market Blog</button></Link>
                
              {/* <!-- .navbar --> */}
 
