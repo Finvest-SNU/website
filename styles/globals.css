@@ -124,6 +124,9 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
+}
+
+.header-dark {
   background: #000;
 }
 
@@ -154,6 +157,24 @@ h6 {
     height: 60px;
   }
 }
+
+#header .navbar-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255,255,255,0.72);
+}
+
+#header .navbar-container {
+  z-index: 2;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -192,6 +213,7 @@ h6 {
   font-weight: 300;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
+  /* color: #000; */
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -229,6 +251,12 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #fff;
+  /* color: #000; */
+  font-weight: 500;
+}
+
+.navbar-link-dark {
+  color: #000 !important;
 }
 
 .navbar .dropdown ul {
@@ -296,7 +324,7 @@ h6 {
   }
 }
 
-#btn-market-blog {
+.btn-market-blog {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 56px;
   padding: 15.5px 24px;
@@ -312,6 +340,10 @@ h6 {
   /* justify-content: center; */
   /* align-items: center; */
   /* gap: 10px; */
+}
+
+.btn-market-blog-light {
+  background: #333333;
 }
 
 /**

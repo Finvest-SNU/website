@@ -1,15 +1,19 @@
 import Logo from './../assets/img/logo.png';
+import LogoLight from './../assets/img/logo-light.png';
 
 export default function Navbar() {
     return (
         <>
-            <header id="header" className="fixed-top d-flex">
-                <div className="container d-flex justify-content-between align-items-center">
+            <header id="header" className="fixed-top d-flex header-dark">
+                <div id="navbar-bg" className=""></div>
+                <div className="container d-flex justify-content-between align-items-center navbar-container">
 
                 <div className="logo">
                     {/* <h1><a href="index.html">Maxim</a></h1> */}
                     {/* <!-- Uncomment below if you prefer to use an image logo --> */}
-                    <a href="index.html"><img src={Logo.src} alt="" className="img-fluid" /></a>
+                    <div id="logo-light" data-src={LogoLight.src} style={{display: 'none'}}></div>
+                    <div id="logo-dark" data-src={Logo.src} style={{display: 'none'}}></div>
+                    <a href="index.html"><img src={Logo.src} id="navbar-logo" alt="" className="img-fluid" /></a>
                 </div>
 
                 <nav id="navbar" className="navbar">
@@ -40,7 +44,7 @@ export default function Navbar() {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
 
-                <a href="" id="btn-market-blog">The Market Blog</a>
+                <a href="" className="btn-market-blog btn-market-blog-light">The Market Blog</a>
              {/* <!-- .navbar --> */}
 
                 </div>
