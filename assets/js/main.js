@@ -40,35 +40,6 @@
     el.addEventListener('scroll', listener)
   }
 
-  const changeNavBar = () => {
-    let position = window.scrollY;
-    let banner = select('#banner')
-    const header = select('#header')
-    const navbarBg = select('#navbar-bg')
-    const navbarlinks = select('.navbar a', true)
-    const logo = select('#navbar-logo')
-    const logoLight = select('#logo-light').dataset.src;
-    const logoDark = select('#logo-dark').dataset.src;
-    if (!banner) return
-    if (position >= banner.offsetTop) {
-      header.classList.remove('header-dark')
-      navbarBg.classList.add('navbar-bg')
-      navbarlinks.forEach(navbarlink => {
-        navbarlink.classList.add('navbar-link-dark')
-      })
-      logo.setAttribute('src', logoLight)
-    } else {
-      header.classList.add('header-dark')
-      navbarBg.classList.remove('navbar-bg')
-      navbarlinks.forEach(navbarlink => {
-        navbarlink.classList.remove('navbar-link-dark')
-      })
-      logo.setAttribute('src', logoDark)
-    }
-  }
-
-  onscroll(document, changeNavBar)
-
   /**
    * Navbar links active state on scroll
    */
@@ -262,5 +233,37 @@
   //     mirror: false
   //   })
   // });
+
+  // CUSTOM JS
+  const changeNavBar = () => {
+    let position = window.scrollY;
+    let banner = select('#banner')
+    const header = select('#header')
+    const navbarBg = select('#navbar-bg')
+    const navbarlinks = select('.navbar a', true)
+    const logo = select('#navbar-logo')
+    const logoLight = select('#logo-light').dataset.src;
+    const logoDark = select('#logo-dark').dataset.src;
+    if (!banner) return
+    if (position >= banner.offsetTop) {
+      header.classList.remove('header-dark')
+      navbarBg.classList.add('navbar-bg')
+      navbarlinks.forEach(navbarlink => {
+        navbarlink.classList.add('navbar-link-dark')
+      })
+      logo.setAttribute('src', logoLight)
+    } else {
+      header.classList.add('header-dark')
+      navbarBg.classList.remove('navbar-bg')
+      navbarlinks.forEach(navbarlink => {
+        navbarlink.classList.remove('navbar-link-dark')
+      })
+      logo.setAttribute('src', logoDark)
+    }
+  }
+
+  onscroll(document, changeNavBar)
+
+  
 
 })()
