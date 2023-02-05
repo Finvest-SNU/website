@@ -1,7 +1,9 @@
 import Logo from './../assets/img/logo.png';
 import LogoLight from './../assets/img/logo-light.png';
+import Link from 'next/link';
 
 export default function Navbar() {
+    
     return (
         <>
             <header id="header" className="fixed-top d-flex header-dark">
@@ -30,6 +32,7 @@ export default function Navbar() {
                             <li><a href="#">Deep Drop Down 1</a></li>
                             <li><a href="#">Deep Drop Down 2</a></li>
                             <li><a href="#">Deep Drop Down 3</a></li>
+                            
                             <li><a href="#">Deep Drop Down 4</a></li>
                             <li><a href="#">Deep Drop Down 5</a></li>
                             </ul>
@@ -44,7 +47,7 @@ export default function Navbar() {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
 
-                <a href="" className="btn-market-blog btn-market-blog-light">The Market Blog</a>
+                <Link href='/Market'><button id="btn-market-blog" className="btn-market-blog btn-market-blog-light">The Market Blog</button></Link>
              {/* <!-- .navbar --> */}
 
                 </div>
