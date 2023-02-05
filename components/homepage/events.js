@@ -39,8 +39,6 @@ export default function Events() {
                         <Swiper
                             spaceBetween={5}
                             slidesPerView="auto"
-                            // onSlideChange={() => console.log('slide change')}
-                            // onSwiper={(swiper) => console.log(swiper)}
                             modules={[Navigation, Scrollbar]}
                             navigation
                             breakpoints={{
@@ -48,12 +46,6 @@ export default function Events() {
                                 320: {
                                     slidesPerView: 1,
                                 },
-                                // when window width is >= 480px
-                                // 480: {
-                                // slidesPerView: 3,
-                                // spaceBetween: 30
-                                // },
-                                // // when window width is >= 640px
                                 767: {
                                     slidesPerView: 1,
                                 },
@@ -70,20 +62,7 @@ export default function Events() {
                             <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
                             <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
                             <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
-                        {/* ... */}
                         </Swiper>
-
-                        {/* <div className={`row ${styles.bisleri_container}`}>
-                            <div className={`col-lg-4`}>
-                                <img src={BisleriImg.src} className={`img-fluid`} alt="Bisleri" />
-                            </div>
-                            <div className={`col-lg-4`}>
-                                <img src={BisleriImg.src} className={`img-fluid`} alt="Bisleri" />
-                            </div>
-                            <div className={`col-lg-4`}>
-                                <img src={BisleriImg.src} className={`img-fluid`} alt="Bisleri" />
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
