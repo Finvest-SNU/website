@@ -6,6 +6,9 @@ const EventComponent = () => {
       const background={
         backgroundColor:"black"
       };
+      const font={
+        marginTop:"-25px"
+      };
     return (
         <div className="container-fluid" style={background}>
           <div className="row text-center">
@@ -40,7 +43,7 @@ const EventComponent = () => {
                   <div className={`${styles.text} mt-5 mb-5`}>
                       <p className={styles.exp}>LEARN STOCK MARKET WITH</p>
                       <p className={`${styles.finverse2}`}>LEARNERS’ TRIBE</p>
-                      <p className={`${styles.content} mt-1`}>What is happening around the world A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on</p>
+                      <p className={`${styles.content} `} style={font}>What is happening around the world A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on</p>
                       <div className={styles.knowContainer}>
                           <button className={styles.know}><span className={styles.Knowtext}>Know More</span></button>
                       </div>
