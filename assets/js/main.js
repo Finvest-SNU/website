@@ -1,3 +1,5 @@
+import { PassThrough } from "stream";
+
 /**
 * Template Name: Maxim - v4.9.1
 * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
@@ -15,7 +17,9 @@
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
+      if(el)
       return document.querySelector(el)
+      else true
     }
   }
 
@@ -23,12 +27,12 @@
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
+    let selectel = select(el, all)
+    if (selectel) {
       if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
+        selectel.forEach(e => e.addEventListener(type, listener))
       } else {
-        selectEl.addEventListener(type, listener)
+        selectel.addEventListener(type, listener)
       }
     }
   }

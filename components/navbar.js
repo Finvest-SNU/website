@@ -15,15 +15,15 @@ export default function Navbar() {
                     {/* <!-- Uncomment below if you prefer to use an image logo --> */}
                     <div id="logo-light" data-src={LogoLight.src} style={{display: 'none'}}></div>
                     <div id="logo-dark" data-src={Logo.src} style={{display: 'none'}}></div>
-                    <a href="index.html"><img src={Logo.src} id="navbar-logo" alt="" className="img-fluid" /></a>
+                    <Link href="/"><img src={Logo.src} id="navbar-logo" alt="" className="img-fluid" /></Link>
                 </div>
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                    <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a className="nav-link scrollto" href="#about">About Us</a></li>
-                    <li><a className="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a className="nav-link scrollto " href="#events">Events</a></li>
+                    <li><Link href="/" className="nav-link scrollto active">Home</Link></li>
+                    <li><a className="nav-link scrollto" href="/#about">About Us</a></li>
+                    <li><Link className="nav-link scrollto" href="/team">Team</Link></li>
+                    <li><Link className="nav-link scrollto" href="/eventss">Events</Link></li>
                     {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                         <ul>
                         <li><a href="#">Drop Down 1</a></li>
