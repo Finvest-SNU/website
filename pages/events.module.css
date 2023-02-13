@@ -20,15 +20,16 @@
   }
   
   .img1 {
-    background-image: url("https://res.cloudinary.com/diynkxbpc/image/upload/c_scale,h_749,w_1050/v1674217893/out_hrcbtl.png");
+    background-image: url("https://res.cloudinary.com/diynkxbpc/image/upload/v1676274421/edf_a4knon.png");
     width: 100%;
     height: 100%;
     background-size: cover;
     word-wrap: break-word;
     overflow: hidden;
+    margin-top:10%;
   }
   
-  
+
   
   .img2 {
     background-image: url("https://res.cloudinary.com/diynkxbpc/image/upload/c_scale,h_749,w_1050//v1671244980/image_iuiyyi.png");
@@ -133,6 +134,9 @@
         color: white;
         font-weight: 300;
     }
+    .img1{
+      margin-top:10%;
+    }
   
   }
   
@@ -147,6 +151,9 @@
         color: #000;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .img1{
+      margin-top:5%;
     }
   
     .finverse {
@@ -185,6 +192,9 @@
         color: #000;
         padding: 7px 24px 7px 24px;
     }
+    .img1{
+      margin-top:2.5%;
+    }
   
     .finverse {
         font-style: normal;
@@ -215,6 +225,9 @@
   @media only screen and (min-width: 1200px) {
     .knowcontainer {
         margin-top: 0%;
+    }
+    .img1{
+      margin-top:0%;
     }
   
     .know {
@@ -275,6 +288,9 @@
         font-weight: 600;
         color: #000;
         margin: 8px;
+    }
+    .img1{
+      margin-top:15%;
     }
   
     .finverse {
