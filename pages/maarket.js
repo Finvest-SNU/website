@@ -4,8 +4,7 @@ const FrameComponent = () => {
   return (
     <div className={styles.parent}>
       <img className={styles.icon} alt="" />
-      <img className={styles.icon1} alt="" />
-      <img className={styles.icon2} alt="" />
+      
       <img className={styles.image7Icon} alt="" src="../image-7@2x.png" />
       <img className={styles.frameChild} alt="" src="../rectangle-1.svg" />
       <img className={styles.icon3} alt="" src="../@2x.png" />
