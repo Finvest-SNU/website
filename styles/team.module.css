@@ -1,0 +1,488 @@
+
+.coreCompBox{
+    display: flex;
+    margin-left:7%;
+    margin-right:10%;
+    margin-top:185px;
+    /* position: absolute; */
+    /* margin-left: 114px; */
+    /* margin-right: 114px; */
+    /* padding-top: 230px; */
+    /* justify-content: center;*/
+}
+
+.sitebg{
+    padding: 20px 0;
+}
+
+.coreTitle{
+    position: absolute;
+    /* left: 114px;
+    top: 200px; */
+    background: linear-gradient(269.36deg, #00FF47 -0.35%, #00C466 91.19%);
+        background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80%;
+    padding-top:100px;
+    /* margin-left: 114px; */
+    margin-left:7%;
+
+}
+
+.coreMemImg{
+    /* margin-top: 20px;
+    margin-right: 30px; */
+    border-radius: 20px;
+    margin:15px 15px 25px 15px;
+}
+
+.coreNameT{
+    font-family: 'Poppins';
+    margin-bottom: 0.0rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;/* or 170% */
+    text-align: center;
+    color: rgba(16, 16, 16, 0.8);
+}
+.corePosT{
+    font-family: 'Poppins';
+    margin-bottom: 0.0rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;/* or 170% */
+    text-align: center;
+    color: rgba(16, 16, 16, 0.8);
+}
+
+
+/*--------------------
+
+-----width change-----
+
+---------------------*/
+
+@media only screen and (max-width:1470px){
+    .sitebg{
+        padding: 20px 0;
+    }
+    .coreTitle{
+        font-size: 66px;
+        padding-top: 90px;
+    }
+    .coreCompBox{
+        margin-top: 160px;
+    }
+    .coreMemImg{
+        width: 170px;
+        height: 170px;
+        margin-bottom: 13px;
+    }
+    .coreNameT{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .corePosT{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    
+}
+@media only screen and (max-width:1330px){
+    .coreTitle{
+        font-size: 50px;
+        padding-top: 75px;
+    }
+    .coreCompBox{
+        margin-top: 130px;
+    }
+    .coreMemImg{
+        width: 150px;
+        height: 150px;
+    }
+    .coreNameT{
+        font-size: 15px;
+    }
+    .corePosT{
+        font-size: 15px;
+        ;
+    }
+}
+
+@media only screen and (max-width:1220px){
+    .coreTitle{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+    .coreCompBox{
+        margin-top: 100px;
+    }
+    .coreMemImg{
+        width: 120px;
+        height: 120px;
+    }
+    .coreNameT{
+        font-size: 12px;
+    }
+    .corePosT{
+        font-size: 12px;
+    }
+}
+
+/* ------------------
+    Subcore css
+-------------------*/
+
+
+.sCoreCompBox{
+    display: flex;
+    margin-left:7%;
+    margin-right:7%;
+    margin-top:120px;
+}
+.sCoreCompBox2{
+    display: flex;
+    margin-left:7%;
+    margin-right:7%;
+    /* margin-top:80px; */
+}
+
+
+.sCoreTitle{
+    position: absolute;
+    background: linear-gradient(269.36deg, #00FF47 -0.35%, #00C466 91.19%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 2px;
+    margin-left:7%;
+}
+
+.sCoreMemImg{
+    border-radius: 20px;
+    margin:15px 15px 25px 15px;
+}
+
+.sCoreNameT{
+    font-family: 'Poppins';
+    margin-bottom: 0.0rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;/* or 170% */
+    text-align: center;
+    color: rgba(16, 16, 16, 0.8);
+}
+
+.sCorePosT{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;/* or 170% */
+    text-align: center;
+    color: rgba(16, 16, 16, 0.8);
+}
+
+/*--------------------
+
+-----width change-----
+
+---------------------*/
+
+@media only screen and (max-width:1470px){
+
+    .sCoreTitle{
+        font-size: 66px;
+    }
+    .sCoreCompBox{
+        margin-top: 100px;
+    }
+    .sCoreMemImg{
+        width: 170px;
+        height: 170px;
+        margin-bottom: 13px;
+    }
+    .sCoreNameT{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .sCorePosT{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    
+}
+@media only screen and (max-width:1330px){
+    .sCoreTitle{
+        font-size: 50px;
+    }
+    .sCoreCompBox{
+        margin-top: 90px;
+    }
+    /* .sCoreCompBox2{
+        margin-top: 130px;
+    } */
+    .sCoreMemImg{
+        width: 150px;
+        height: 150px;
+    }
+    .ScoreNameT{
+        font-size: 15px;
+    }
+    .sCorePosT{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1220px){
+    .sCoreTitle{
+        font-size: 40px;
+    }
+    .sCoreCompBox{
+        margin-top: 70px;
+    }
+    /* .sCoreCompBox2{
+        margin-top: 100px;
+    } */
+    .sCoreMemImg{
+        width: 120px;
+        height: 120px;
+    }
+    .sCoreNameT{
+        font-size: 12px;
+    }
+    .sCorePosT{
+        font-size: 12px;
+    }
+}
+
+
+/* ------------------
+    Team css
+-------------------*/
+
+.teamHead{
+
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom: 200px;
+}
+.teamTitle{
+    position: absolute;
+    background: linear-gradient(269.36deg, #00FF47 -0.35%, #00C466 91.19%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80%;
+}
+
+.teamCompBox{
+    /* display: flex; */
+
+    margin-right:3%;
+    /* margin-top:80px; */
+}
+
+
+.teamName{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #333333;
+    /* margin-top: 120px; */
+}
+.teamMemNames{
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(16, 16, 16, 0.8);
+}
+.teamCompBoxFlex
+{
+    display:flex;
+    margin-left:7%;
+    margin-right:7%;
+}
+@media only screen and (min-width: 991px){
+    .mobTeam{
+        display: none;
+    }
+}
+
+/*--------------------
+
+-----width change-----
+
+---------------------*/
+
+@media only screen and (max-width:1470px){
+    .teamHead{
+        margin-left:7%;
+        margin-right:7%;
+        margin-bottom: 160px;
+    }
+    .teamTitle{
+        font-size: 66px;
+    }
+    
+}
+@media only screen and (max-width:1330px){
+    .teamHead{
+        margin-left:7%;
+        margin-right:7%;
+        margin-bottom: 130px;
+    }
+    .teamTitle{
+        font-size: 50px;
+    }
+    .teamName{
+        font-size: 38px;
+    }
+    .teamMemNames{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:1220px){
+    .teamHead{
+        margin-left:7%;
+        margin-right:7%;
+        margin-bottom: 110px;
+    }
+    .teamTitle{
+        font-size: 40px;
+    }
+    .teamName{
+        font-size: 33px;
+    }
+    .teamMemNames{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width:1110px){
+    .teamHead{
+        margin-left:7%;
+        margin-right:7%;
+        margin-bottom: 110px;
+    }
+    .teamTitle{
+        font-size: 35px;
+    }
+    .teamName{
+        font-size: 30px;
+    }
+    .teamMemNames{
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+/*--------------------
+
+-----mobile view------
+
+---------------------*/
+
+@media only screen and (max-width: 991px){
+/*--------------------
+
+---------core---------
+
+--------------------*/
+
+    .coreTitle{
+        font-size: 32px;
+    }
+    .coreCompBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+/*--------------------
+
+-------Sub core-------
+
+--------------------*/
+    .sCoreTitle{
+        font-size: 32px;
+    }
+    .sCoreCompBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sCoreCompBox2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+/*--------------------
+
+-----Team Members-----
+
+--------------------*/
+
+    .teamTitle{
+        font-size: 32px;
+    }
+    .teamCompBoxFlex{
+        display: none;
+    }
+    .mobTeamCompBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 7%;
+    }
+    .collapseIn{
+        margin: 0 7%;
+    }
+    .teamName{
+        font-size: 28px;
+    }
+    .teamMemNames{
+        margin: 10px 0;
+        line-height: 20px ;
+        font-size: 18px;
+    }
+    .teamHead{
+        margin-left:7%;
+        margin-right:7%;
+        margin-bottom: 90px;
+    }
+    .mobButton{
+        border: none;
+        background: none;
+    }
+}

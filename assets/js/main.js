@@ -1,3 +1,5 @@
+import { PassThrough } from "stream";
+
 /**
 * Template Name: Maxim - v4.9.1
 * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
@@ -15,7 +17,9 @@
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
+      if(el)
       return document.querySelector(el)
+      else true
     }
   }
 
@@ -23,12 +27,12 @@
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
+    let selectel = select(el, all)
+    if (selectel) {
       if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
+        selectel.forEach(e => e.addEventListener(type, listener))
       } else {
-        selectEl.addEventListener(type, listener)
+        selectel.addEventListener(type, listener)
       }
     }
   }
@@ -233,5 +237,37 @@
   //     mirror: false
   //   })
   // });
+
+  // CUSTOM JS
+  const changeNavBar = () => {
+    let position = window.scrollY;
+    let banner = select('#banner')
+    const header = select('#header')
+    const navbarBg = select('#navbar-bg')
+    const navbarlinks = select('.navbar a', true)
+    const logo = select('#navbar-logo')
+    const logoLight = select('#logo-light').dataset.src;
+    const logoDark = select('#logo-dark').dataset.src;
+    if (!banner) return
+    if (position >= banner.offsetTop) {
+      header.classList.remove('header-dark')
+      navbarBg.classList.add('navbar-bg')
+      navbarlinks.forEach(navbarlink => {
+        navbarlink.classList.add('navbar-link-dark')
+      })
+      logo.setAttribute('src', logoLight)
+    } else {
+      header.classList.add('header-dark')
+      navbarBg.classList.remove('navbar-bg')
+      navbarlinks.forEach(navbarlink => {
+        navbarlink.classList.remove('navbar-link-dark')
+      })
+      logo.setAttribute('src', logoDark)
+    }
+  }
+
+  onscroll(document, changeNavBar)
+
+  
 
 })()

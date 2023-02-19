@@ -124,7 +124,10 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: rgb(0, 0, 0);
+}
+
+.header-dark {
+  background: #000;
 }
 
 #header .logo h1 {
@@ -154,6 +157,24 @@ h6 {
     height: 60px;
   }
 }
+
+#header .navbar-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255,255,255,0.72);
+}
+
+#header .navbar-container {
+  z-index: 2;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -192,6 +213,7 @@ h6 {
   font-weight: 300;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
+  /* color: #000; */
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -229,6 +251,12 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #fff;
+  /* color: #000; */
+  font-weight: 500;
+}
+
+.navbar-link-dark {
+  color: #000 !important;
 }
 
 .navbar .dropdown ul {
@@ -296,7 +324,7 @@ h6 {
   }
 }
 
-#btn-market-blog {
+.btn-market-blog {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 56px;
   padding: 15.5px 24px;
@@ -325,6 +353,10 @@ h6 {
   transform: translateY(4px);
   
 
+}
+
+.btn-market-blog-light {
+  background: #333333;
 }
 
 /**
@@ -443,92 +475,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: calc(100vh - 70px);
-  background: url("../assets/img/hero-bg.jpg") center center;
-  background-size: cover;
-  position: relative;
-  margin-top: 70px;
-  padding: 0;
-}
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .container {
-  z-index: 2;
-}
-
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-}
-
-#hero h2 {
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 35px;
-  font-size: 24px;
-}
-
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  border-color: #1bac91;
-  background: #1bac91;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 992px) {
-  #hero {
-    margin-top: 60px;
-    height: calc(100vh - 60px);
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -617,38 +563,6 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about h3 {
-  font-weight: 400;
-  font-size: 34px;
-  color: #21413c;
-}
-
-.about .icon-box {
-  margin-top: 44px;
-}
-
-.about .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #1bac91;
-}
-
-.about .icon-box h4 {
-  font-size: 22px;
-  font-weight: 500;
-  margin-left: 60px;
-  color: #21413c;
-}
-
-.about .icon-box p {
-  font-size: 15px;
-  color: #848484;
-  margin-left: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -1648,6 +1562,33 @@ section {
   font-size: 26px !important;
   color: #01E190 !important;
   padding-bottom: 6px !important;
+}
+
+/* SwiperJS Styles */
+.swiper-scrollbar {
+    display: none !important;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 22px !important;
+    font-weight: 600;
+    line-height: 0.5 !important;
+    border-radius: 100%;
+    background-color: white;
+    padding: 16px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #000 !important;
+}
+
+/* Section styles */
+section#events {
+  padding-top: 0px !important;
+}
+
+section#sponsors {
+  padding-top: 20px !important;
 }
 
 /* MARKET */

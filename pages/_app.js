@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'boxicons/css/boxicons.min.css';
 import 'aos/dist/aos.css';
 import '../styles/globals.css';
 import AOS from 'aos';
