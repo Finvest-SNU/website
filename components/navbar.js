@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div id="navbar-bg" className=""></div>
                 <div className="container d-flex justify-content-between align-items-center navbar-container">
 
-                <div className="logo">
+                <div className="logo order-2 order-lg-1">
                     {/* <h1><a href="index.html">Maxim</a></h1> */}
                     {/* <!-- Uncomment below if you prefer to use an image logo --> */}
                     <div id="logo-light" data-src={LogoLight.src} style={{display: 'none'}}></div>
@@ -18,7 +18,7 @@ export default function Navbar() {
                     <Link href="/"><img src={Logo.src} id="navbar-logo" alt="" className="img-fluid" /></Link>
                 </div>
 
-                <nav id="navbar" className="navbar">
+                <nav id="navbar" className="navbar order-1 order-lg-2">
                     <ul>
                     <li><Link href="/" className="nav-link scrollto active">Home</Link></li>
                     <li><a className="nav-link scrollto" href="/#about">About Us</a></li>
@@ -47,7 +47,8 @@ export default function Navbar() {
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>
 
-                <Link href='/Market'><button id="btn-market-blog" className="btn-market-blog btn-market-blog-light">The Market Blog</button></Link>
+                {/* <Link href='/Market' className="order-3"><button id="btn-market-blog" className="btn-market-blog btn-market-blog-light">The Market Blog</button></Link> */}
+                <Link href='/Market' className="order-3 btn-market-blog btn-market-blog-light">The Market Blog</Link>
              {/* <!-- .navbar --> */}
 
                 </div>

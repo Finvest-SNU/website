@@ -250,19 +250,26 @@ import { PassThrough } from "stream";
     const logoDark = select('#logo-dark').dataset.src;
     if (!banner) return
     if (position >= banner.offsetTop) {
-      header.classList.remove('header-dark')
-      navbarBg.classList.add('navbar-bg')
-      navbarlinks.forEach(navbarlink => {
-        navbarlink.classList.add('navbar-link-dark')
-      })
-      logo.setAttribute('src', logoLight)
+      if(header.classList.contains('header-dark')) {
+        header.classList.remove('header-dark')
+        navbarBg.classList.add('navbar-bg')
+        select('.mobile-nav-toggle').classList.add('mobile-nav-toggle-dark')
+        navbarlinks.forEach(navbarlink => {
+          navbarlink.classList.add('navbar-link-dark')
+        })
+        logo.setAttribute('src', logoLight)
+      }
     } else {
-      header.classList.add('header-dark')
-      navbarBg.classList.remove('navbar-bg')
-      navbarlinks.forEach(navbarlink => {
-        navbarlink.classList.remove('navbar-link-dark')
-      })
-      logo.setAttribute('src', logoDark)
+      if(!header.classList.contains('header-dark'))
+      {
+        header.classList.add('header-dark')
+        navbarBg.classList.remove('navbar-bg')
+        select('.mobile-nav-toggle').classList.remove('mobile-nav-toggle-dark')
+        navbarlinks.forEach(navbarlink => {
+          navbarlink.classList.remove('navbar-link-dark')
+        })
+        logo.setAttribute('src', logoDark)
+      }
     }
   }
 
