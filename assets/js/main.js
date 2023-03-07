@@ -248,8 +248,12 @@ import { PassThrough } from "stream";
     const logo = select('#navbar-logo')
     const logoLight = select('#logo-light').dataset.src;
     const logoDark = select('#logo-dark').dataset.src;
-    if (!banner) return
-    if (position >= banner.offsetTop) {
+    let url = window.location.href.split('/');
+    url = url[url.length-1];
+    const pageOffset = {'': banner?.offsetTop ?? 0, 'team': 60, 'Market': 60};
+    // if (!banner) return
+    // if (position >= banner.offsetTop) {
+    if (position >= pageOffset[url]) {
       if(header.classList.contains('header-dark')) {
         header.classList.remove('header-dark')
         navbarBg.classList.add('navbar-bg')
