@@ -10,7 +10,8 @@ export default function Hero() {
             <div className="row justify-content-center">
                 <div className="col-lg-10 col-xl-8 text-center">
                 <h2 className={styles.h2}>A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on the world’s fastest and most secure crypto exchange</h2>
-                <div className={`col-lg-8 d-none d-sm-block offset-lg-2 justify-content-start ${styles.join_community}`}>
+                {/* <div className={`col-lg-8 d-none d-sm-block offset-lg-2 justify-content-start ${styles.join_community}`}> */}
+                <div className={`col-lg-8 offset-lg-2 justify-content-start ${styles.join_community}`}>
                     <form action="" method="post" className={styles.form}>
                         <input type="email" name="email" placeholder="Your email address" />
                         <input type="submit" value="Join our community" />

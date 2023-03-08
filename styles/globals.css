@@ -173,6 +173,13 @@ h6 {
   }
 }
 
+@media (max-width: 475px) {
+  #header .btn-market-blog {
+    font-size: 11px;
+  }
+}
+
+
 #header .navbar-bg {
   position: absolute;
   left: 0;
