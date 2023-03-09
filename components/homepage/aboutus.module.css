@@ -3,6 +3,8 @@
     margin-right: 15px;
     border-radius: 100px !important;
     background: rgba(245, 245, 245, 0.9);
+    width: 100%;
+    font-size: 15px;
 }
 
 .btn_active {

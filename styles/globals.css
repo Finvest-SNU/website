@@ -1643,3 +1643,8 @@ body {
   --color-gray-400: rgba(16, 16, 16, 0.8);
   --color-black: #000;
 }
+
+.btn_active {
+    background: linear-gradient(268.99deg, #01E755 3.26%, #01D88A 99.39%) !important;
+    font-weight: 600;
+}
