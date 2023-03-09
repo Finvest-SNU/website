@@ -97,11 +97,14 @@ import { PassThrough } from "stream";
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  function toggleMobileMenu() {
     select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
+    const el = select('.mobile-nav-toggle');
+    el.classList.toggle('bi-list')
+    el.classList.toggle('bi-x')
+  }
+
+  on('click', '.mobile-nav-toggle', toggleMobileMenu)
 
   /**
    * Mobile nav dropdowns activate
@@ -278,6 +281,15 @@ import { PassThrough } from "stream";
   }
 
   onscroll(document, changeNavBar)
+
+  on('click', '.accordian-button', function(el) {
+    select('.accordian-button', true).forEach(btn => {
+      console.log(btn.classList.remove('btn_active'))
+    });
+    if(!el.target.classList.contains('collapsed')) el.target.classList.add('btn_active');
+  }, true);
+
+  on('click', 'a.nav-link', () => toggleMobileMenu('.mobile-nav-toggle'), true);
 
   
 
