@@ -289,7 +289,9 @@ import { PassThrough } from "stream";
     if(!el.target.classList.contains('collapsed')) el.target.classList.add('btn_active');
   }, true);
 
-  on('click', 'a.nav-link', () => toggleMobileMenu('.mobile-nav-toggle'), true);
+  on('click', 'a.nav-link', function() {
+    if(window.screen.width < 992) toggleMobileMenu('.mobile-nav-toggle')
+  }, true);
 
   
 
