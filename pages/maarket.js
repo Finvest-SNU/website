@@ -39,7 +39,7 @@ const FrameComponent = () => {
       <img className={styles.image10Icon} alt="" src="../image-10@2x.png" />
       <img className={styles.image11Icon} alt="" src="../image-11@2x.png" />
       <div className={styles.featuredBlogs}>Featured Blogs</div>
-      <div className={styles.lineDiv} />
+      <div className={styles.line1} />
       <div className={styles.frameChild1} />
       {/* <div className={styles.date20}>Date :Date</div>
       <div className={styles.darshOswal}>Darsh Oswal</div> */}
@@ -52,7 +52,7 @@ const FrameComponent = () => {
         the world’s fastest and most secure crypto exchange ...confidence
       </div>
       <img className={styles.image12Icon} alt="" src="../image-11@2x.png" />
-      <div className={styles.frameChild2} />
+      <div className={styles.line2} />
       {/* <div className={styles.date201}>Date :Date</div>
       <div className={styles.darshOswal1}>Darsh Oswal</div> */}
       <div className={styles.Heading5}>
@@ -64,7 +64,7 @@ const FrameComponent = () => {
         the world’s fastest and most secure crypto exchange ...
       </div>
       <img className={styles.image13Icon} alt="" src="../image-11@2x.png" />
-      <div className={styles.frameChild3} />
+      <div className={styles.line3} />
       {/* <div className={styles.date202}>Date :Date</div>
       <div className={styles.darshOswal2}>Darsh Oswal</div> */}
     </div>
