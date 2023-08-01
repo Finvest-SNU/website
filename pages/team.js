@@ -60,7 +60,7 @@ const team =() => {
         <div className={styles.coreCompBox}>
             
             <div >
-                <Image className={styles.coreMemImg} src={sec}alt="Core Team member image" width={180} height={200}/>
+                <Image className={styles.coreMemImg} src={sec} alt="Core Team member image" width={180} height={200}/>
                 <h3 className={styles.coreNameT}>Tejansh Sachdeva</h3>
                 <h2 className={styles.corePosT}>Secretary</h2>
             </div>

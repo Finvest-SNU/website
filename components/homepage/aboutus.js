@@ -9,7 +9,9 @@ export default function AboutUs() {
                 <h1 className={styles.h1}>Making Interests Interesting</h1>
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
-                        <h5 className={styles.h5}>A highly-curated platform for creating, collecting and trading unique NFTs. Trade with confidence on the world’s fastest and most secure crypto exchange</h5>
+                        <h5 className={styles.h5}>Welcome to the exciting world of Finvest, where finance becomes an exhilarating adventure rather than a daunting mystery!
+                            We're not your average finance club– at Finvest, we're on a mission to unleash the power of financial literacy and make it accessible to everyone. We firmly believe that by equipping individuals with the knowledge and skills to navigate the financial landscape confidently, we can drive positive change in people's lives.
+                            Whether you're a finance pro or a complete novice, we are here to guide you through the twists and turns of the financial landscape.</h5>
                         <img src={Img.src} className={`img-fluid ${styles.img}`} alt="About Us Image" />
                     </div>
                 </div>
@@ -31,21 +33,21 @@ export default function AboutUs() {
                             <div className="accordion-item">
                                 <div id="stockMarketCollapse" className={`accordion-collapse show collapse ${styles.h5}`} data-bs-parent="#infoAccordians">
                                     <div className="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <strong>The stock market:</strong> <br/> Platform to trade shares of public companies. Investors buy to own part of a company and gain from profits and growth. Key for capital formation and wealth growth. Prices fluctuate based on company performance and market conditions. Informed decisions crucial for success.
                                     </div>
                                 </div>
                             </div>
                             <div className="accordian-item">
                                 <div id="personalFinanceCollapse" className={`accordion-collapse collapse ${styles.h5}`} data-bs-parent="#infoAccordians">
                                     <div className="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <strong>Personal finances:</strong> <br/>Managing individual money matters. Involves budgeting, saving, investing, and debt management. Crucial for financial stability and achieving goals. Create a budget, track expenses, build an emergency fund. Invest wisely for long-term growth. Minimize debts, establish good credit. Plan for retirement and future milestones. Seek professional advice if needed. Empower yourself for a secure financial future.
                                     </div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <div id="taxesCollapse" className={`accordion-collapse collapse ${styles.h5}`} data-bs-parent="#infoAccordians">
                                     <div className="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <strong>Taxes:</strong><br/> Mandatory contributions to the government. Collected to fund public services and infrastructure. Types include income, sales, property taxes, etc. Payable by individuals and businesses. File annual tax returns. Deductible expenses can lower tax liability. Understand tax brackets and rates. Keep records for accuracy. Deadlines are crucial. Seek tax professionals for complex situations. Compliance ensures legal and financial well-being.
                                     </div>
                                 </div>
                             </div>

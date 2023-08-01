@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
+import Link from "next/link";
 
 export default function Events() {
     return (
@@ -23,7 +24,7 @@ export default function Events() {
                     </div>
                     <div className={`col-lg-7 col-md-7 text-center ${styles.events_section} mt-2 mt-sm-0`}>
                         <img src={EventsImg.src} className={`img-fluid ${styles.eventsImg}`} alt="Events" />
-                        <button type="button" className={`btn ${styles.btn} ${styles.events_btn}`}>Checkout</button>
+                        <button type="button" className={`btn ${styles.btn} ${styles.events_btn}`}><Link className="nav-link scrollto" href="/eventss">Checkout</Link></button>
                     </div>
                 </div>
                 <div className={`row mt-sm-4 mt-2`}>
@@ -31,7 +32,9 @@ export default function Events() {
                         <div className={`ml-3 pt-4 pb-4 col-9 col-md-6`}>
                             <img src={InstaIcon.src} className={`img-fluid ${styles.insta_icon}`} alt="Instagram" />
                             <h1 className={styles.insta_text}>Follow us for<br/>updates</h1>
-                            <button type="button" className={`btn ${styles.btn} ${styles.insta_btn}`}>Follow us</button>
+                            <button type="button" className={`btn ${styles.btn} ${styles.insta_btn}`}>
+                                <Link className="nav-link active" href="https://www.instagram.com/finvest_snu/">Follow Us</Link>
+                            </button>
                         </div>
                     </div>
                     
