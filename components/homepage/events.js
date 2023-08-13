@@ -2,7 +2,11 @@ import styles from './events.module.css';
 import PFGImg from './../../assets/img/homepage/events/personal_finance_guide.png';
 import EventsImg from './../../assets/img/homepage/events/events.png';
 import InstaIcon from './../../assets/img/homepage/events/instagram.png';
-import BisleriImg from './../../assets/img/homepage/events/bisleri.png';
+import insta_1 from '../../public/insta_1.png';
+import insta_2 from '../../public/insta_2.png';
+import insta_3 from '../../public/insta_3.png';
+import insta_4 from '../../public/insta_4.png';
+import insta_5 from '../../public/insta_5.png';
 import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -60,11 +64,11 @@ export default function Events() {
                             loop
                             scrollbar={{ draggable: true }}
                         >
-                            <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
-                            <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
-                            <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
-                            <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
-                            <SwiperSlide><img src={BisleriImg.src} className="img-fluid" alt="Bisleri" /></SwiperSlide>
+                            <SwiperSlide><img src={insta_1.src} className="img-fluid" alt="insta_post1" /></SwiperSlide>
+                            <SwiperSlide><img src={insta_2.src} className="img-fluid" alt="insta_post2" /></SwiperSlide>
+                            <SwiperSlide><img src={insta_3.src} className="img-fluid" alt="insta_post3" /></SwiperSlide>
+                            <SwiperSlide><img src={insta_4.src} className="img-fluid" alt="insta_post4" /></SwiperSlide>
+                            <SwiperSlide><img src={insta_5.src} className="img-fluid" alt="insta_post5" /></SwiperSlide>
                         </Swiper>
                     </div>
                 </div>

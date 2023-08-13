@@ -48,7 +48,7 @@ export default function Navbar() {
                 </nav>
 
                 {/* <Link href='/Market' className="order-3"><button id="btn-market-blog" className="btn-market-blog btn-market-blog-light">The Market Blog</button></Link> */}
-                <Link href='/Market' className="order-3 btn-market-blog btn-market-blog-light">The Market Blog</Link>
+                {/*<Link href='/Market' className="order-3 btn-market-blog btn-market-blog-light">The Market Blog</Link>*/}
              {/* <!-- .navbar --> */}
 
                 </div>
