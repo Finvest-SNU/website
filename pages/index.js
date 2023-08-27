@@ -15,7 +15,7 @@ export default function Home() {
       <AboutUs />
       <Events />
       <Roadmap />
-      <Sponsors />
+      {/*<Sponsors />*/}
     </>
   );  
 }
