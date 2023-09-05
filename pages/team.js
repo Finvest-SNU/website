@@ -51,6 +51,10 @@ const team =() => {
     function toggle5(){
     setShowMe5(!showMe5);
     }
+    const [showMe6, setShowMe6] = useState(false);
+    function toggle6(){
+    setShowMe6(!showMe6);
+    }
     return (
     <>
     <section className={styles.sitebg}>
@@ -252,15 +256,23 @@ const team =() => {
             </div>
             <div style={{display: showMe?"block":"none"}}>
                 <div className={styles.collapseIn}>
-                    <p className={styles.teamMemNames}>Parth Nahata <br/></p>
-                    <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
-                    <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>  
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
+                <p className={styles.teamMemNames}>Viswa<br/></p>
+                    <p className={styles.teamMemNames}>Bharathi<br/></p>
+                    <p className={styles.teamMemNames}>Aditya Raghuram<br/></p>
+                    <p className={styles.teamMemNames}>Alekhya<br/></p>
+                    <p className={styles.teamMemNames}>Deepshika Chand<br/></p>
+                    <p className={styles.teamMemNames}>Ishani Singh<br/></p>
+                    <p className={styles.teamMemNames}>Jashn Sadh<br/></p>
+                    <p className={styles.teamMemNames}>Mehar Verma<br/></p>
+                    <p className={styles.teamMemNames}>Noor Walia<br/></p>
+                    <p className={styles.teamMemNames}>Pritika Gandhi<br/></p>
+                    <p className={styles.teamMemNames}>Smayan Mohanty<br/></p>
+                    <p className={styles.teamMemNames}>Srishti Khanna<br/></p>
+                    <p className={styles.teamMemNames}>Sruian Vooturi<br/></p>
+                    <p className={styles.teamMemNames}>KVS Tarun<br/></p>
+                    <p className={styles.teamMemNames}>Mugdha Gadgil<br/></p>
+                    <p className={styles.teamMemNames}>Suryansh Gupta<br/></p>
+                    
                 </div>
             </div>
         </div>
@@ -274,12 +286,6 @@ const team =() => {
                     <p className={styles.teamMemNames}>Parth Nahata <br/></p>
                     <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
                     <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
                 </div>
             </div>
         </div>
@@ -293,31 +299,48 @@ const team =() => {
                     <p className={styles.teamMemNames}>Parth Nahata <br/></p>
                     <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
                     <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p> 
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
                 </div>
             </div>
         </div>
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
-            <h2 className={styles.teamName}>Design & Videography</h2>
+            <h2 className={styles.teamName}>WebDev Team</h2>
+            <button className={styles.mobButton} onClick={toggle6}>+</button>
+            </div>
+            <div style={{display: showMe6?"block":"none"}}>
+                <div className={styles.collapseIn}>
+                <p className={styles.teamMemNames}>Kunal Passan <br/></p>
+                    <p className={styles.teamMemNames}>Tushar Juneja<br/></p>
+                    <p className={styles.teamMemNames}>Tanishq Nehra<br/></p>
+                    <p className={styles.teamMemNames}>Aditya Kotra<br/></p>
+                    <p className={styles.teamMemNames}>Narayana<br/></p>
+                </div>
+            </div>
+        </div>
+        <div className={styles.mobTeam}>
+            <div className={styles.mobTeamCompBox}>
+            <h2 className={styles.teamName}>Design Team</h2>
             <button className={styles.mobButton} onClick={toggle3}>+</button>
             </div>
             <div style={{display: showMe3?"block":"none"}}>
                 <div className={styles.collapseIn}>
-                    <p className={styles.teamMemNames}>Parth Nahata <br/></p>
-                    <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
-                    <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
+                    <p className={styles.teamMemNames}>Pratyush<br/></p>
+                    <p className={styles.teamMemNames}>Aradhya<br/></p>
+                    <p className={styles.teamMemNames}>Lakshmi<br/></p>
+                    <p className={styles.teamMemNames}>Sanskriti Garg<br/></p>
+                </div>
+            </div>
+        </div>
+        <div className={styles.mobTeam}>
+            <div className={styles.mobTeamCompBox}>
+            <h2 className={styles.teamName}>Videography Team</h2>
+            <button className={styles.mobButton} onClick={toggle3}>+</button>
+            </div>
+            <div style={{display: showMe3?"block":"none"}}>
+                <div className={styles.collapseIn}>
+                <p className={styles.teamMemNames}>Jaideep<br/></p>
+                    <p className={styles.teamMemNames}>Akshat Shashi<br/></p>
+                    <p className={styles.teamMemNames}>Rithvik<br/></p>
                 </div>
             </div>
         </div>
@@ -328,15 +351,15 @@ const team =() => {
             </div>
             <div style={{display: showMe4?"block":"none"}}>
                 <div className={styles.collapseIn}>
-                    <p className={styles.teamMemNames}>Marketing <br/></p>
-                    <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
-                    <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
+                    <p className={styles.teamMemNames}>Muskan Kalra<br/></p>
+                    <p className={styles.teamMemNames}>Armaan<br/></p>
+                    <p className={styles.teamMemNames}>Juhi Singh<br/></p>
+                    <p className={styles.teamMemNames}>Gaurangi Sharma<br/></p>
+                    <p className={styles.teamMemNames}>Saniya<br/></p>
+                    <p className={styles.teamMemNames}>Udhaya Shree<br/></p>
+                    <p className={styles.teamMemNames}>Mahesh Kumar<br/></p>
+                    <p className={styles.teamMemNames}>Anshika Khatry<br/></p>
+                    <p className={styles.teamMemNames}>Janardhan<br/></p>
                 </div>
             </div>
         </div> 
@@ -347,15 +370,9 @@ const team =() => {
             </div>
             <div style={{display: showMe5?"block":"none"}}>
                 <div className={styles.collapseIn}> 
-                    <p className={styles.teamMemNames}>Sponsorship <br/></p>
-                    <p className={styles.teamMemNames}>Mrityunjay Prasad<br/></p>
-                    <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
-                    <p className={styles.teamMemNames}>Tanishq<br/></p>
+                    <p className={styles.teamMemNames}>Kashvi<br/></p>
+                    <p className={styles.teamMemNames}>Dhruv<br/></p>
+                    <p className={styles.teamMemNames}>Mahika<br/></p>
                 </div>
             </div>
         </div>
