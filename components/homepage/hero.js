@@ -1,33 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./hero.module.css";
 import Img from "./../../assets/img/homepage/hero.png";
+import Link from "next/link";
 
 export default function Hero() {
-  const [email, setEmail] = useState("");
-  const [error, setError] = useState(null);
-
-  const submitData = async (event) => {
-    event.preventDefault();
-    try {
-      const response = await fetch("/api/emailData", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
-
-      if (!response.ok) {
-        setError("Enter Valid Email")
-      }
-
-      const data = await response.json();
-      setError(data.message || data.error)
-    } catch (error) {
-      console.error(error);
-      setError(error.error);
-    }
-  };
+ 
 
   return (
     <section
@@ -47,27 +24,14 @@ export default function Hero() {
               unique NFTs. Trade with confidence on the world’s fastest and most
               secure crypto exchange
             </h2>
-            <div
-              className={`col-lg-8 offset-lg-2 justify-content-start ${styles.join_community}`}
-            >
-              <form className={styles.form}>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your email address"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <button
-                  type="submit"
-                  className={styles.joinBtn}
-                  onClick={submitData}
-                >
-                  Join our community
-                </button>
-              </form>
-              {error && <p className={styles.errorMsg}>{error}</p>}
-            </div>
+           
+             <Link href="/" target="_blank" className={`${styles.joinBtn}`}>
+           <i class="bi bi-whatsapp"></i>
+
+           <button type="button" >
+            Join our community
+          </button></Link>
+            
           </div>
         </div>
       </div>
