@@ -17,7 +17,7 @@ export default function Roadmap() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-md-6 mt-0 mt-md-4 d-none d-sm-block">
-                                <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}>Download</button>
+                                <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}><a href='https://zerodha.com/varsity/modules/' className={`${styles.a_roadmap}`}>Download</a></button>
                         </div>
                     </div>
                 </div>

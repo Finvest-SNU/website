@@ -1,5 +1,3 @@
-import styles from './finXins.module.css';
-
 import Logo from './../assets/img/logo.png';
 const FinComponent=()=>{
     return(
