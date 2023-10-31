@@ -15,10 +15,12 @@ export default function Footer() {
                                     {/* <a href="index.html"><img src={Logo.src} id="logo-footer" alt="" className="img-fluid" /></a> */}
                                     <h4 id="inquiry-text">Feel free to get in touch</h4>
                                     <div id="send-message-form" className="footer-newsletter">
-                                        <form action="" method="post">
+                                        {/* <form action="" method="post">
                                             <input type="email" name="email" placeholder="Send message" />
-                                            <input type="submit" value="Send" />
-                                        </form>
+                                            <input type="submit" value="Send message" />
+                                        </form> */}
+                                        <a href='https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSHxTnpJqkqqwXhshDpdqSHNpCwbLCcklxPqFZMfThzwLSFxSBKfnKqJpPGPMSsPHLTDnPDw'><h4 className="footer-send">Send Message </h4></a>
+
                                     </div>
                                     {/* <div className="social-links mt-3">
                                         <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
@@ -31,18 +33,18 @@ export default function Footer() {
                             </div>
 
                             <div className="col-lg-4 offset-lg-2 col-md-6 footer-links">
-                                <h4>finvest</h4>
+                                <h4>Finvest</h4>
                                 <div className="row justify-content-center">
                                     <div className="col-6">
                                         <ul>
-                                            <li><a href="#">HOME</a></li>
-                                            <li><a href="#">ABOUT US</a></li>
+                                            <li><a href="/">HOME</a></li>
+                                            <li><a href="#about">ABOUT US</a></li>
                                         </ul>
                                     </div>
                                     <div className="col-6">
                                         <ul>
-                                            <li><a href="#">TEAM</a></li>
-                                            <li><a href="#">EVENTS</a></li>
+                                            <li><a href="/team">TEAM</a></li>
+                                            <li><a href="/eventss">EVENTS</a></li>
                                         </ul> 
                                     </div>
                                 </div>
@@ -51,7 +53,7 @@ export default function Footer() {
                                 <h4>Contact us</h4>
                                 <ul>
                                     <li><a href="#">finvest@snu.edu.in</a></li>
-                                    <li><a href="#">+91 956 0160 969</a></li>
+                                    <li><a href="#">+91 6399-302306</a></li>
                                 </ul>
                             </div>
 

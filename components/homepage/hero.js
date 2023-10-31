@@ -25,7 +25,7 @@ export default function Hero() {
               secure crypto exchange
             </h2>
            
-             <Link href="/" target="_blank" className={`${styles.joinBtn}`}>
+             <Link href="https://chat.whatsapp.com/FOGgjutACGa0eQ30dnU8W5" target="_blank" className={`${styles.joinBtn}`}>
            <i class="bi bi-whatsapp"></i>
 
            <button type="button" >
