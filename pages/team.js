@@ -267,7 +267,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Srinivas<br/></p>
                 </div>
             </div>
-            <div className={styles.teamCompBox}>
+            <div  className={styles.teamCompBox}>
                 <div>
                     <h2 className={styles.teamName}>EM team</h2>
                     <p className={styles.teamMemNames}>Manjunath<br/></p>
