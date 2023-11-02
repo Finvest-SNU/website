@@ -172,7 +172,7 @@ const team =() => {
         <div className={styles.teamCompBoxFlex}>
             <div className={styles.teamCompBox}>
                 <div>
-                    <h2 className={styles.teamName}>Content</h2>
+                    <h2 className={styles.teamName}>Content team</h2>
                     <p className={styles.teamMemNames}>Viswa<br/></p>
                     <p className={styles.teamMemNames}>Bharathi<br/></p>
                     <p className={styles.teamMemNames}>Aditya Raghuram<br/></p>
@@ -195,7 +195,7 @@ const team =() => {
             </div>
             <div className={styles.teamCompBox}>
                 <div>
-                    <h2 className={styles.teamName}>Marketing</h2>
+                    <h2 className={styles.teamName}>Marketing team</h2>
                     <p className={styles.teamMemNames}>Muskan Kalra<br/></p>
                     <p className={styles.teamMemNames}>Armaan<br/></p>
                     <p className={styles.teamMemNames}>Saniya<br/></p>
@@ -223,7 +223,7 @@ const team =() => {
             </div>
             <div className={styles.teamCompBox}>
                 <div>
-                    <h2 className={styles.teamName}>WebDev</h2>
+                    <h2 className={styles.teamName}>Web-Dev team</h2>
                     <p className={styles.teamMemNames}>Kunal Passan <br/></p>
                     <p className={styles.teamMemNames}>Tushar Juneja<br/></p>
                     <p className={styles.teamMemNames}>Tanishq Nehra<br/></p>
@@ -250,7 +250,7 @@ const team =() => {
             </div>
             <div className={styles.teamCompBox}>
                 <div>
-                    <h2 className={styles.teamName}>Sponsorship</h2>
+                    <h2 className={styles.teamName}>PR & Sponsorship</h2>
                     <p className={styles.teamMemNames}>Kashvi<br/></p>
                     <p className={styles.teamMemNames}>Dhruv<br/></p>
                     <p className={styles.teamMemNames}>Mahika<br/></p>
@@ -364,7 +364,7 @@ const team =() => {
                 </div>
             </div>
         </div>
-        <div className={styles.mobTeam}>
+        {/* <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
             <h2 className={styles.teamName}>Public Relations</h2>
             <button className={styles.mobButton} onClick={toggle2}>+</button>
@@ -376,7 +376,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
             <h2 className={styles.teamName}>Web Development</h2>
@@ -393,7 +393,7 @@ const team =() => {
         </div>
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
-            <h2 className={styles.teamName}>Design & videography</h2>
+            <h2 className={styles.teamName}>Design videography</h2>
             <button className={styles.mobButton} onClick={toggle3}>+</button>
             </div>
             <div style={{display: showMe3?"block":"none"}}>
@@ -462,7 +462,7 @@ const team =() => {
         </div> 
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
-            <h2 className={styles.teamName}>Sponsorship</h2>
+            <h2 className={styles.teamName}>PR & Sponsorship</h2>
             <button className={styles.mobButton} onClick={toggle5}>+</button>
             </div>
             <div style={{display: showMe5?"block":"none"}}>
