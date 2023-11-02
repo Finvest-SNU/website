@@ -401,7 +401,6 @@ const team =() => {
                 <p className={styles.teamMemNames}>Pratyush<br/></p>
                     <p className={styles.teamMemNames}>Aradhya<br/></p>
                     <p className={styles.teamMemNames}>Jaideep<br/></p>
-                    <p className={styles.teamMemNames}>Akshat Shashi<br/></p>
                     <p className={styles.teamMemNames}>Rithvik<br/></p>
                     <p className={styles.teamMemNames}>Ashar Hussain<br/></p>
                     <p className={styles.teamMemNames}>Arsh Bhasin<br/></p>
