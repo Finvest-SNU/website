@@ -2,6 +2,10 @@
     padding-top: 0px !important;
 }
 
+#bannerimg{
+    margin-top: 2rem;
+}
+
 .mobileImg {
     width: 100%;
     display: none;
