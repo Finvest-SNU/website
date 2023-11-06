@@ -174,6 +174,8 @@ const team =() => {
                 <div>
                     <h2 className={styles.teamName}>Content team</h2>
                     <p className={styles.teamMemNames}>Viswa<br/></p>
+    <p className={styles.teamMemNames}>Jatin K<br/></p>
+    <p className={styles.teamMemNames}>KVS Tarun<br/></p>
                     <p className={styles.teamMemNames}>Bharathi<br/></p>
                     <p className={styles.teamMemNames}>Aditya Raghuram<br/></p>
                     <p className={styles.teamMemNames}>Deepshika Chand<br/></p>
@@ -183,7 +185,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Noor Walia<br/></p>
                     <p className={styles.teamMemNames}>Pritika Gandhi<br/></p>
                     <p className={styles.teamMemNames}>Srishti Khanna<br/></p>
-                    <p className={styles.teamMemNames}>KVS Tarun<br/></p>
+                    
                     <p className={styles.teamMemNames}>Mugdha Gadgil<br/></p>
                     <p className={styles.teamMemNames}>Partth Kant<br/></p>
                     <p className={styles.teamMemNames}>Aakrisht Narang<br/></p>
