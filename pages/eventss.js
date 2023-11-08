@@ -39,11 +39,7 @@ const EventComponent = () => {
               creating, collecting and trading unique NFTs. Trade with
               confidence on
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know}>
-                <span className={styles.Knowtext}>Know More</span>
-              </button>
-            </div>
+           
           </div>
         </div>
 
@@ -59,11 +55,7 @@ const EventComponent = () => {
               creating, collecting and trading unique NFTs. Trade with
               confidence on
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know}>
-                <span className={styles.Knowtext}>Know More</span>
-              </button>
-            </div>
+            
           </div>
         </div>
 
@@ -79,11 +71,7 @@ const EventComponent = () => {
               creating, collecting and trading unique NFTs. Trade with
               confidence on
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know}>
-                <span className={styles.Knowtext}>Know More</span>
-              </button>
-            </div>
+          
           </div>
         </div>
         <div
