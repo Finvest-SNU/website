@@ -2,6 +2,7 @@ import styles from './roadmap.module.css';
 import MoneyImg from './../../assets/img/homepage/roadmap/money-emoji.png';
 import GroupImg from './../../assets/img/homepage/roadmap/group.png';
 import GroupMobileImg from './../../assets/img/homepage/roadmap/group_mobile.png';
+import Link from 'next/link';
 
 export default function Roadmap() {
     return (
@@ -17,7 +18,7 @@ export default function Roadmap() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-md-6 mt-0 mt-md-4 d-none d-sm-block">
-                                <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}><a href='https://zerodha.com/varsity/modules/' className={`${styles.a_roadmap}`}>Download</a></button>
+                                <button type="button" className={`btn btn-light ${styles.btn} ${styles.btn_active}`}><Link target='_blank' href='https://zerodha.com/varsity/modules/' className={`${styles.a_roadmap}`}>Download</Link></button>
                         </div>
                     </div>
                 </div>
