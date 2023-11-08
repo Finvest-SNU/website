@@ -15,8 +15,11 @@ export default function AboutUs() {
                 <h3 className={styles.h3}>About Us</h3>
                 <h1 className={styles.h1}>Making Interests Interesting</h1>
                 <div className="row justify-content-center">
-                    <div className="col-lg-8">
-                        {/* Your content */}
+                <div className="col-lg-8">
+                        <h5 className={styles.h5}>Welcome to the exciting world of Finvest, where finance becomes an exhilarating adventure rather than a daunting mystery!
+                            We're not your average finance club– at Finvest, we're on a mission to unleash the power of financial literacy and make it accessible to everyone. We firmly believe that by equipping individuals with the knowledge and skills to navigate the financial landscape confidently, we can drive positive change in people's lives.
+                            Whether you're a finance pro or a complete novice, we are here to guide you through the twists and turns of the financial landscape.</h5>
+                        <img src={Img.src} className={`img-fluid ${styles.img}`} alt="About Us Image" />
                     </div>
                 </div>
 
