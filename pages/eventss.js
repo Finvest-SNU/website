@@ -80,13 +80,15 @@ const EventComponent = () => {
               The latter half of FINVERSE witnessed an exhilarating auction where various Non-Fungible Token (NFT) assets were traded, adding an innovative touch to the financial landscape explored during the event. FINVERSE served as a platform that not only entertained but also enlightened participants about the intersection of gaming, finance, and the evolving metaverse.              </p>
             )}
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know}  onClick={toggleReadMoreLess}>
-                <span className={styles.Knowtext}>
+
+            <div>
+              <button onClick={toggleReadMoreLess}>
+                <span>
                   {isShowMore ? "Read Less" : "Read More"}
-                  </span>
+                 </span>
               </button>
             </div>
+
           </div>
         </div>
 
@@ -107,11 +109,13 @@ const EventComponent = () => {
               </p>
             )}
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know} onClick={toggleReadMoreLess}>
-                <span className={styles.Knowtext}>{isShowMore ? "Read Less" : "Read More"}</span>
+
+            <div>
+              <button onClick={toggleReadMoreLess}>
+                <span>{isShowMore ? "Read Less" : "Read More"}</span>
               </button>
             </div>
+
           </div>
         </div>
 
@@ -132,11 +136,13 @@ const EventComponent = () => {
               </p>
             )}
             </p>
-            <div className={styles.knowContainer}>
-              <button className={styles.know} onClick={toggleReadMoreLess}>
-                <span className={styles.Knowtext}>{isShowMore ? "Read Less" : "Read More"}</span>
+
+            <div>
+              <button onClick={toggleReadMoreLess}>
+                <span>{isShowMore ? "Read Less" : "Read More"}</span>
               </button>
             </div>
+            
           </div>
         </div>
         <div

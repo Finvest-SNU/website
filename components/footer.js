@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Logo from './../assets/img/logo.png';
 export default function Footer() {
     return (
@@ -19,7 +20,7 @@ export default function Footer() {
                                             <input type="email" name="email" placeholder="Send message" />
                                             <input type="submit" value="Send message" />
                                         </form> */}
-                                        <a href='https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSHxTnpJqkqqwXhshDpdqSHNpCwbLCcklxPqFZMfThzwLSFxSBKfnKqJpPGPMSsPHLTDnPDw'><h4 className="footer-send">Send Message </h4></a>
+                                        <Link target='_blank' href='https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSHxTnpJqkqqwXhshDpdqSHNpCwbLCcklxPqFZMfThzwLSFxSBKfnKqJpPGPMSsPHLTDnPDw'><h4 className="footer-send">Send Message </h4></Link>
 
                                     </div>
                                     {/* <div className="social-links mt-3">
