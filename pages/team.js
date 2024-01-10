@@ -316,7 +316,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Deepshika Chand<br/></p>
                     <p className={styles.teamMemNames}>Ishani Singh<br/></p>
                     <p className={styles.teamMemNames}>Jashn Sadh<br/></p>
-                    <p className={styles.teamMemNames}>Mehar Verma<br/></p>
+                    {/* <p className={styles.teamMemNames}>Mehar Verma<br/></p> */}
                     <p className={styles.teamMemNames}>Noor Walia<br/></p>
                     <p className={styles.teamMemNames}>Pritika Gandhi<br/></p>
                     <p className={styles.teamMemNames}>Srishti Khanna<br/></p>
