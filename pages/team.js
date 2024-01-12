@@ -408,7 +408,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Akshita Jakhar<br/></p>
                 </div>
             </div>
-        </div> */} */}
+        </div> */}
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
             <h2 className={styles.teamName}>Web Development</h2>
@@ -459,7 +459,7 @@ const team =() => {
                     <p className={styles.teamMemNames}>Rithvik<br/></p>
                 </div>
             </div>
-        </div> */} */}
+        </div> */}
         <div className={styles.mobTeam}>
             <div className={styles.mobTeamCompBox}>
             <h2 className={styles.teamName}>Marketing</h2>

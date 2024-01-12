@@ -28,8 +28,6 @@ import React, { useState } from "react";
 //   );
 // }
 
-import React, { useState } from "react";
-
 // function ReadMoreLess() {
 //   const [isShowMore, setIsShowMore] = useState(false);
 
@@ -67,13 +65,6 @@ const EventComponent = () => {
   const font = {
     marginTop: "-25px",
   };
-
-  const [isShowMore, setIsShowMore] = useState(false);
-
-  const toggleReadMoreLess = () => {
-    setIsShowMore(!isShowMore);
-  };
-
 
   const [isShowMore, setIsShowMore] = useState(false);
 
