@@ -106,14 +106,6 @@ const EventComponent = () => {
               The event was divided into two compelling rounds, starting with challenging games such as Casino (including Bluff, Big Short, Teen Patti, Roulette), Trade-O-Bar, and Clash of Lands. These activities tested participants' skills and wit, fostering an atmosphere of excitement and friendly competition.
               The latter half of FINVERSE witnessed an exhilarating auction where various Non-Fungible Token (NFT) assets were traded, adding an innovative touch to the financial landscape explored during the event. FINVERSE served as a platform that not only entertained but also enlightened participants about the intersection of gaming, finance, and the evolving metaverse.              </p>
             )}
-              <p>
-              Recently held as part of Breeze'22, FINVERSE offered participants an immersive experience beyond conventional finance. Teams, consisting of dynamic duos, showcased their strategic and financial intellect through a series of captivating games.
-              </p>
-            {isShowMore && (
-              <p>
-              The event was divided into two compelling rounds, starting with challenging games such as Casino (including Bluff, Big Short, Teen Patti, Roulette), Trade-O-Bar, and Clash of Lands. These activities tested participants' skills and wit, fostering an atmosphere of excitement and friendly competition.
-              The latter half of FINVERSE witnessed an exhilarating auction where various Non-Fungible Token (NFT) assets were traded, adding an innovative touch to the financial landscape explored during the event. FINVERSE served as a platform that not only entertained but also enlightened participants about the intersection of gaming, finance, and the evolving metaverse.              </p>
-            )}
             </p>
             <div className={styles.knowContainer}>
               <button className={styles.know}  onClick={toggleReadMoreLess}>
@@ -139,15 +131,7 @@ const EventComponent = () => {
               </p>
             {isShowMore && (
               <p>
-                Relive the captivating journey into finance with FINQUEST, a resounding success hosted by Finvest.  Participants enjoyed an evening filled with financial exploration armed with 1,00,000 Fincash. Teams navigated market fluctuations and invested in diverse commodities.
-              </p>
-            )}
-            <p>
-                Relive the captivating journey into finance with FINQUEST, a resounding success hosted by Finvest.  Participants enjoyed an evening filled with financial exploration armed with 1,00,000 Fincash. Teams navigated market fluctuations and invested in diverse commodities.
-              </p>
-            {isShowMore && (
-              <p>
-                Relive the captivating journey into finance with FINQUEST, a resounding success hosted by Finvest.  Participants enjoyed an evening filled with financial exploration armed with 1,00,000 Fincash. Teams navigated market fluctuations and invested in diverse commodities.
+                The event catered to all, offering excitement, strategy, and adrenaline. Attendees competed for enticing goodies at the scenic Lawn opposite the Central Library. FINQUEST exemplified an engaging experience, allowing all participants to embrace investment's thrill without prior skills' pressure.
               </p>
             )}
             </p>
@@ -169,14 +153,6 @@ const EventComponent = () => {
             <p className={`${styles.finverse2}`}>SNIFTY</p>
             <p className={`${styles.finverse2}`}>SNIFTY</p>
             <p className={`${styles.content} `} style={font}>
-            <p>
-              Embark on a thrilling financial journey with SNIFTY, the ultimate stock market simulation presented by Finvest, The Finance Club of SNIoE. 
-              </p>
-            {isShowMore && (
-              <p>
-                 Dive into the exciting world of stock trading featuring your favorite SNU businesses like Naveen, Nescafé, Grabbo, Sodexo, and more! SNIFTY offers a unique opportunity to hone your investment skills and make strategic moves in a risk-free environment. Join us for an immersive experience that combines fun and finance, exclusively tailored for our SNU community. Let the trading games begin!
-              </p>
-            )}
             <p>
               Embark on a thrilling financial journey with SNIFTY, the ultimate stock market simulation presented by Finvest, The Finance Club of SNIoE. 
               </p>
