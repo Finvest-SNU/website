@@ -151,7 +151,6 @@ const EventComponent = () => {
           >
             <p className={styles.exp}>LEARN STOCK MARKET WITH</p>
             <p className={`${styles.finverse2}`}>SNIFTY</p>
-            <p className={`${styles.finverse2}`}>SNIFTY</p>
             <p className={`${styles.content} `} style={font}>
             <p>
               Embark on a thrilling financial journey with SNIFTY, the ultimate stock market simulation presented by Finvest, The Finance Club of SNIoE. 
